@@ -129,7 +129,7 @@ ${testing}
 
 ## Questions
     
-<a href="https://github.com/${git}">${git}</a>
+<a href="https://github.com/${git}">${git}</a><br />
 If you have any additional questions please reach me via email at ${email}
     
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -137,15 +137,11 @@ If you have any additional questions please reach me via email at ${email}
 ## License
     
 The following licenses are included in this file
-
-- ${licenses}
-
-
+- ${licenses}.
 
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
 [product-screenshot]: images/screenshot.png
-
 `;
        
         
