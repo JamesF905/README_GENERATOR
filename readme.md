@@ -1,7 +1,7 @@
 
 <div id="top"></div>
 
-[license-shield]
+[![][license-shield]][license-url]
     
 <br />
 <div align="center">
@@ -12,15 +12,15 @@
 <h3 align="center">Readme Generator</h3>
 
 <p align="center">
-    <a href="https://jamesf905.github.io/ReadME_Generator"><strong>https://jamesf905.github.io/ReadME_Generator</strong></a>
+    <a href="https://drive.google.com/file/d/1jZCnRJ36mH4DweZxKWsDD0DBgexVsVrw/view"><strong>Link to live video presentation</strong></a>
 </p>
 </div>
 
-[![Readme Generator][product-screenshot]](ReadME_Generator)
+[![Readme Generator][product-screenshot]]
 
 ## Description
     
-This projects creates a template readme file that can be used on all future projects, using node js for inputting variables via the index.js file and using inquirer
+This projects creates a template readme file that can be used on all future projects, using node js for inputting variables via the index.js file and using inquirerThis projects creates a template readme file that can be used on all future projects, using node js for inputting variables via the index.js file and using inquirer
     
 ## Table of Contents 
 <details>
@@ -38,7 +38,7 @@ This projects creates a template readme file that can be used on all future proj
     
 ## Installation
     
-Clone from the repo, install node js, open a terminal to your local directory, the one that holds index.js. Install inquirer by typing "npm i inquirer" into the terminal. then type "node index.js" to run the program and begin the co prompts
+Clone from the repo, install node js, open a terminal to your local directory, the one that holds index.js. Install inquirer by typing "npm i inquirer" into the terminal. then type "node index.js" to run the program and begin the co prompts.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
     
@@ -75,7 +75,7 @@ If you have any additional questions please reach me via email at jameslfidlin@g
     
 The following licenses are included in this file
 
-
+- 
 
 
 

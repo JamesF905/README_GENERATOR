@@ -64,7 +64,7 @@ inquirer
     let readme_string = `
 <div id="top"></div>
 
-[license-shield]
+[![${licenses}][license-shield]][license-url]
     
 <br />
 <div align="center">
@@ -75,11 +75,11 @@ inquirer
 <h3 align="center">${title}</h3>
 
 <p align="center">
-    <a href="https://jamesf905.github.io/${repo_name}"><strong>https://jamesf905.github.io/${repo_name}</strong></a>
+    <a href="https://drive.google.com/file/d/1jZCnRJ36mH4DweZxKWsDD0DBgexVsVrw/view"><strong>Link to live video presentation</strong></a>
 </p>
 </div>
 
-[![${title}][product-screenshot]](${repo_name})
+[![${title}][product-screenshot]]
 
 ## Description
     
@@ -138,7 +138,7 @@ If you have any additional questions please reach me via email at ${email}
     
 The following licenses are included in this file
 
-${licenses}
+- ${licenses}
 
 
 
