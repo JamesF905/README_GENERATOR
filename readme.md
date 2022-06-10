@@ -18,6 +18,8 @@
 
     [![Readme Generator][product-screenshot]](ReadME_Generator)
 
+    <a href="https://drive.google.com/file/d/1jZCnRJ36mH4DweZxKWsDD0DBgexVsVrw/view"><strong>Link to presentation video</strong></a>
+
     ## Description
     
     builds readme from templates using node
