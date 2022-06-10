@@ -1,30 +1,28 @@
 
-    <div id="top"></div>
+<div id="top"></div>
 
-    [license-shield]
+[license-shield]
     
-    <br />
-    <div align="center">
-        <a href="https://github.com/JamesF905/ReadME_Generator">
-            <img src="images/logo.png" alt="Logo" width="80" height="80">
-        </a>
+<br />
+<div align="center">
+<a href="https://github.com/JamesF905/ReadME_Generator">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
+</a>
 
-        <h3 align="center">Readme Generator</h3>
+<h3 align="center">Readme Generator</h3>
 
-        <p align="center">
-            <a href="https://jamesf905.github.io/ReadME_Generator"><strong>https://jamesf905.github.io/ReadME_Generator</strong></a>
-        </p>
-    </div>
+<p align="center">
+    <a href="https://jamesf905.github.io/ReadME_Generator"><strong>https://jamesf905.github.io/ReadME_Generator</strong></a>
+</p>
+</div>
 
-    [![Readme Generator][product-screenshot]](ReadME_Generator)
+[![Readme Generator][product-screenshot]](ReadME_Generator)
 
-    <a href="https://drive.google.com/file/d/1jZCnRJ36mH4DweZxKWsDD0DBgexVsVrw/view"><strong>Link to presentation video</strong></a>
-
-    ## Description
+## Description
     
-    builds readme from templates using node
+This projects creates a template readme file that can be used on all future projects, using node js for inputting variables via the index.js file and using inquirer
     
-    ## Table of Contents 
+## Table of Contents 
 <details>
   <summary>Table of Contents</summary>
   <ol>   
@@ -38,51 +36,50 @@
   </ol>
 </details>
     
-    ## Installation
+## Installation
     
-    clone from the repo, install, node, install
+Clone from the repo, install node js, open a terminal to your local directory, the one that holds index.js. Install inquirer by typing "npm i inquirer" into the terminal. then type "node index.js" to run the program and begin the co prompts
 
-    <p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#top">back to top</a>)</p>
     
-    ## Usage
+## Usage
     
-    to be used as a templete reambe generator for my projects 
+To be used for creating dynamic readme files for each new project. Saving time and eliminating the small errors that can come along with making a fresh readme file.
     
-    <p align="right">(<a href="#top">back to top</a>)</p>    
+<p align="right">(<a href="#top">back to top</a>)</p>    
     
-    ## Collaborators
+## Collaborators
     
-    The following is a list of users who contributed to this project
+The following is a list of users who contributed to this project
 
-    none yet
-
-    
-    <p align="right">(<a href="#top">back to top</a>)</p>
-
-    ## Testing
-
-    test via node after cloning 
-
-
-    <p align="right">(<a href="#top">back to top</a>)</p>
-
-    ## Questions
-    
-    <a href="jamesF905">jamesF905</a>
-    If you have any additional questions please reach me via email at jameslfidlin@gmail.com
-    
-    <p align="right">(<a href="#top">back to top</a>)</p>
-
-    ## License
-    
-    The following licenses are included in this file
+none yet
 
     
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## Testing
+
+To test type "node index.js" into the terminal. make sure you do not already have a readme file.
 
 
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-    [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-    [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
-    [product-screenshot]: images/screenshot.png
-
+## Questions
     
+<a href="https://github.com/jamesF905">jamesF905</a>
+If you have any additional questions please reach me via email at jameslfidlin@gmail.com
+    
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## License
+    
+The following licenses are included in this file
+
+
+
+
+
+[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
+[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+[product-screenshot]: images/screenshot.png
+

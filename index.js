@@ -62,30 +62,30 @@ inquirer
     const { repo_name, title, desc, install, usage, contribute, testing, licenses, git, email } = response;
     
     let readme_string = `
-    <div id="top"></div>
+<div id="top"></div>
 
-    [license-shield]
+[license-shield]
     
-    <br />
-    <div align="center">
-        <a href="https://github.com/JamesF905/${repo_name}">
-            <img src="images/logo.png" alt="Logo" width="80" height="80">
-        </a>
+<br />
+<div align="center">
+<a href="https://github.com/JamesF905/${repo_name}">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
+</a>
 
-        <h3 align="center">${title}</h3>
+<h3 align="center">${title}</h3>
 
-        <p align="center">
-            <a href="https://jamesf905.github.io/${repo_name}"><strong>https://jamesf905.github.io/${repo_name}</strong></a>
-        </p>
-    </div>
+<p align="center">
+    <a href="https://jamesf905.github.io/${repo_name}"><strong>https://jamesf905.github.io/${repo_name}</strong></a>
+</p>
+</div>
 
-    [![${title}][product-screenshot]](${repo_name})
+[![${title}][product-screenshot]](${repo_name})
 
-    ## Description
+## Description
     
-    ${desc}
+${desc}
     
-    ## Table of Contents 
+## Table of Contents 
 <details>
   <summary>Table of Contents</summary>
   <ol>   
@@ -99,59 +99,59 @@ inquirer
   </ol>
 </details>
     
-    ## Installation
+## Installation
     
-    ${install}
+${install}
 
-    <p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#top">back to top</a>)</p>
     
-    ## Usage
+## Usage
     
-    ${usage}
+${usage}
     
-    <p align="right">(<a href="#top">back to top</a>)</p>    
+<p align="right">(<a href="#top">back to top</a>)</p>    
     
-    ## Collaborators
+## Collaborators
     
-    The following is a list of users who contributed to this project
+The following is a list of users who contributed to this project
 
-    ${contribute}
+${contribute}
 
     
-    <p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-    ## Testing
+## Testing
 
-    ${testing}
+${testing}
 
 
-    <p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-    ## Questions
+## Questions
     
-    <a href="${git}">${git}</a>
-    If you have any additional questions please reach me via email at ${email}
+<a href="https://github.com/${git}">${git}</a>
+If you have any additional questions please reach me via email at ${email}
     
-    <p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-    ## License
+## License
     
-    The following licenses are included in this file
+The following licenses are included in this file
 
-    ${licenses}
+${licenses}
 
 
 
-    [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-    [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
-    [product-screenshot]: images/screenshot.png
+[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
+[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+[product-screenshot]: images/screenshot.png
 
-    `;
+`;
        
         
 
 
 
-        fs.writeFile('readme.md', readme_string, (err) =>
-        err ? console.error(err) : console.log('Success!'))   
+    fs.writeFile('readme.md', readme_string, (err) =>
+    err ? console.error(err) : console.log('Success!'))   
 });
