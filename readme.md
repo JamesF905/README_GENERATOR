@@ -1,7 +1,7 @@
 
 <div id="top"></div>
 
-[![][license-shield]][license-url]
+[![Apache][license-shield]][license-url]
     
 <br />
 <div align="center">
@@ -52,7 +52,7 @@ This application is to be used to generate professional, dymanic readme files by
     
 The following is a list of users who contributed to this project
 
-none yet
+none
 
     
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -74,8 +74,8 @@ If you have any additional questions please reach me via email at jameslfidlin@g
 ## License
     
 The following licenses are included in this file
-- .
+- Apache
 
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+[license-shield]: https://img.shields.io/badge/license-Apache-orange
+[license-url]: https://gist.github.com/nicolasdao/a7adda51f2f185e8d2700e1573d8a633#licenses
 [product-screenshot]: images/screenshot.png

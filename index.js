@@ -1,7 +1,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 
-const licenseARRAY = ["GNU AGPLv3", "GNU GPLv3", "GNU LGPLv3", "Mozilla Public License 2.0", "Apache License 2.0", "MIT License", "Boost Software License 1.0", "The Unlicense"]
+const licenseARRAY = ["MIT", "Apache", "GPL", "BSD-2-Clause", "BSD-3-Clause", "BSD-4-Clause"]
 
 inquirer
   .prompt([
@@ -41,10 +41,10 @@ inquirer
         name: 'testing',
     },
     {
-        type: "checkbox",
-        message: "Choose your Licenses",
-        choices: licenseARRAY,
         name: "licenses",
+        type: "list",
+        message: "Choose a license",
+        choices: licenseARRAY,
       },
     {
         type: 'input',
@@ -137,10 +137,10 @@ If you have any additional questions please reach me via email at ${email}
 ## License
     
 The following licenses are included in this file
-- ${licenses}.
+- ${licenses}
 
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+[license-shield]: https://img.shields.io/badge/license-${licenses}-orange
+[license-url]: https://gist.github.com/nicolasdao/a7adda51f2f185e8d2700e1573d8a633#licenses
 [product-screenshot]: images/screenshot.png
 `;
        
